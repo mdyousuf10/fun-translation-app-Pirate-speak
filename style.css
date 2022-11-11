@@ -1,13 +1,14 @@
 :root{
-    --primary-color:#FFB562;
+    --primary-color:#aba399;
     --dark-gray: white;
-    --off-white: #F9F2ED;
+    --off-white: #ffffff;
 }
 
 body{
     font-family: "work sans";
-    margin: 0px;
     background-color: var(--off-white);
+    margin: 0px;
+    padding: 0;
     
 }
 
