@@ -1,5 +1,5 @@
 :root{
-    --primary-color:#aba399;
+    --primary-color:#ff9009;
     --dark-gray: white;
     --off-white: #ffffff;
 }
@@ -9,7 +9,6 @@ body{
     background-color: var(--off-white);
     margin: 0px;
     padding: 0;
-    
 }
 
 textarea{
@@ -19,6 +18,8 @@ textarea{
     padding-bottom: 10px;
     background-color: transparent;
     color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 2rem;
     /* border-color: white; */
 }
 button{
@@ -27,16 +28,19 @@ button{
     padding: 3px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 2rem;
+}button:hover{
+    background-color: white;
+    color: black;
 }
 #output{
     border: 1px solid rgb(0, 0, 0);
     height: 20vh;
-    width: 50%;
+    width: 45%;
     margin: auto;
     padding: 1rem;
     color: rgb(0, 0, 0);
     margin-bottom: 20px;
-
 }
 
 .list-non-bullet{
@@ -92,3 +96,11 @@ button{
 .footer ul{
     padding-inline-start: 0px;
 }
+.social-icons {
+    width: 40px;
+    transition: transform .2s; /* Animation */
+}
+.social-icons:hover{
+    transform: scale(1.2);
+}
+
